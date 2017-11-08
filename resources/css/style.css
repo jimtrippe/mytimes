@@ -60,6 +60,8 @@ header nav {
 .container1 {
   display: flex;
   flex-direction: row;
+  width: 1232px;
+  margin: 0 auto 78px auto;
   padding-top: 116px;
 }
 
@@ -165,4 +167,43 @@ header nav {
   background-color: WhiteSmoke;
   color: DimGray;
   font-size: 12px;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.foot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 55px;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.f-title {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.copyright {
+  display: block;
 }
