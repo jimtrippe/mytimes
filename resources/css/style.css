@@ -2,6 +2,7 @@ html,
 body {
   background-color: white;
   font-family: Verdana;
+  display: block;
   margin: 0;
 }
 
@@ -9,13 +10,14 @@ header {
   display: flex;
   align-items: center;
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
   width: 100%;
   height: 80px;
+  background-color: white;
 }
 
 img {
@@ -61,8 +63,18 @@ header nav {
   padding-top: 116px;
 }
 
-section {
-  border: 1px solid black;
+.space-between {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.story1,
+.story2 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
 }
 
 .column {
@@ -133,4 +145,24 @@ section {
 .titleM {
   font-size: 40px;
   text-align: left;
+}
+
+.cookie {
+  height: 240px;
+  width: 240px;
+}
+
+.n-bites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.n-bites .bite {
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  color: DimGray;
+  font-size: 12px;
 }
